@@ -15,25 +15,32 @@
         caption {
             font-size: 1.5em;
             font-weight: bold;
-            padding: 10px;            
+            padding: 10px;      
+            background-color: blueviolet; 
+            color: white;     
         }
 
         th,td,tr {
             border: 1px solid black;
+            padding: 8px;
         }
     </style>
 </head>
 <body>
-    <caption>FILMES POR GÊNERO</caption>
     <table>
+        <caption>Filmes por Gênero</caption>
         <thead>
-            <th>Grupo</th>
-            <th>Nomes</th>
-            <th colspan="4">Filmes</th>
+            <th scope="col">Grupo</th>
+            <th scope="col">Nomes</th>
+            <th scope="colgroup" colspan="4">Filmes</th>
         </thead>
+        <tfoot>
+            <th colspan="4" scope="row">Total</th>
+            <td style="text-align: center;">10000</td>
+        </tfoot>
         <tbody>
             <!--Mulheres-->
-            <th rowspan="4">Mulheres</th>
+            <th scope="rowgroup" rowspan="4">Mulheres</th>
                 <tr>
                     <td>Ana Maria Santos</td>
                     <td>Alien</td>
@@ -53,7 +60,7 @@
                     <td>Big Hero</td>
                 </tr>
                 <!--Homens-->
-            <th rowspan="4">Homens</th>
+            <th rowspan="4" scope="rowgroup">Homens</th>
             <tr>
                 <td>Bruno Mendonça</td>
                 <td>Intocáveis</td>
