@@ -17,6 +17,13 @@
             border: 1px solid black;
             padding: 10px;
         }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgrey;
+        }
+
         thead, tfoot {
             background-color: gray;
             color: white;
@@ -30,6 +37,7 @@
     <h1>Uso de tabelas grandes</h1>
     <!--
         Anatomia para tabelas grandes
+        CAPTION = Legenda
         Table
             Thead
                 tr,td,th  (tr=table row, td=table data, th=table header)           
@@ -39,10 +47,11 @@
                 tr,td,th
     -->
     <table>
+        <caption>População por estados do Brasil</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
 
         </thead>
@@ -158,7 +167,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td><strong>213.317.639</strong></td>
             </tr>
 
