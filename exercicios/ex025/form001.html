@@ -11,13 +11,26 @@
             padding: 0;
             font-family: Arial, Helvetica, sans-serif;
         }
+
+        h1 {
+            text-align: center;
+        }
+
+         p {
+            margin-left: 15px;
+            margin-top: 12px;
+        }
+
+      
     </style>
 </head>
 <body>
     <h1>Meu primeiro formulário</h1>
-    <form>
-        <p>Nome: <input type="text" name="nome" id="nome"></p>
-        <p>Sobrenome: <input type="text" name="sobrenome" id="sobrenome"></p>
+    <form action="cadastro.php" autocomplete="off">
+        <p>Nome: 
+            <input type="text" name="nome" id="nome"></p>
+        <p>Sobrenome: 
+            <input type="text" name="sobrenome" id="sobrenome"></p>
         <p><input type="submit" value="Enviar"></p>
 
     </form>
