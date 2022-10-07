@@ -1,0 +1,20 @@
+Media type e Media features se combinam
+------------------------------------------
+
+Media query = mediatype + media features.
+
+Media type: tipos de midia.
+media features: caracteristicas de tela.
+--------------------------------------------------
+tipos de mediatype:
+
+All: Para todos os dispositivos.
+Screen: Para monitores ou outros dispositivos com telas coloridas e com resolução adequada.
+Handheld: Para dispositivos de mão. Normalmente com telas pequenas e banda limitada.
+Embossed: Para dispositivos que “imprimem” em braille.
+Tty: Para dispositivos que utilizam uma grade fixa para exibição de caracteres, como por exemplo, teletypes, terminais, dispositivos portáteis com display limitado.
+Print: Para impressão em papel.
+Braille: Para dispositivos táteis.
+Projection: Para apresentações, como PowerPoint.
+TV: Para dispositivos como televisores, ou seja, com baixa resolução, quantidade de cores e scroll limitado.
+Speech: Para sintetizadores de voz.
