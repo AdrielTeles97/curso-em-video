@@ -1,0 +1,4 @@
+Quando utilizar "media" eu posso informar tanto mediatype quanto media feactures.
+
+mediatypes não tem parenteses.
+media fictures são informados dentro de parenteses de forma isolada.
