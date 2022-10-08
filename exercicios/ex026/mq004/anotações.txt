@@ -1,0 +1,8 @@
+Mobile first é um projeto que faz a criação de projetos web e sites primeiro em dispositivos móveis, para depois fazer adaptações para o desktop e outras plataformas, ao contrário do que ainda acontece na maioria das vezes.
+
+Quais são as vantagens do mobile first?
+
+1º Melhor ranqueamento no Google
+2º Melhor experiência do usuário
+3º Aumento da credibilidade da marca
+4º Otimização do carregamento das páginas
